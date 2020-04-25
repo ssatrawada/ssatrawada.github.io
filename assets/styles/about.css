@@ -1,0 +1,100 @@
+html {
+	font-family: adobe-tamil, sans-serif;
+	
+	font-style: normal;
+	height: 100%;
+}
+
+/* ---- header --------*/
+/*menu box */
+
+
+.nav-bar{
+	display:flex;
+	flex-grow:1;
+	justify-content: space-around;
+	padding-left: 30px; 
+	border-bottom: 8px solid #F0A1A0;
+
+}
+.nav-bar a{
+	padding:20px 40px;
+	font-size:30px; 
+	text-decoration: none;
+	color: #A4403F;
+}
+.nav-bar b{
+	text-decoration: underline;
+	padding: 20px 40px;
+	font-size:30px; 
+	color:#A4403F;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color:#A4403F;
+
+}
+
+body {
+	margin: 0px;
+}
+
+
+.column{
+	float: left;
+  	width: 50%;
+}
+
+#p01{
+	font-size:20px; 
+	color: #A4403F;
+	line-height: 40px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 400px 1000px; /*columns widths*/
+}
+
+.left {
+
+}
+
+.painting{
+	padding-left:45px;
+}
+.textr{
+	padding-top: 80px;
+	padding-right: 100px;
+	font-weight: bold;
+}
+.right{
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+	padding-bottom: 150px;
+	
+}
+
+.contact{
+	text-align: center;
+	font-size:20px; 
+	line-height: 20px;
+
+}
+
+#head{
+	color: #726D6D;
+	font-size:20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#text{
+	color: #726D6D;
+	font-weight: normal;
+	line-height: 15px;
+}
+
+
