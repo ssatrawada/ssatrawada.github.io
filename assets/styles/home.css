@@ -17,14 +17,14 @@ html {
 }
 .nav-bar a{
 	padding:20px 40px;
-	font-size:55px; 
+	font-size:35px; 
 	text-decoration: none;
 	color: #A4403F;
 }
 .nav-bar b{
 	text-decoration: underline;
 	padding: 20px 40px;
-	font-size:55px; 
+	font-size:35px; 
 	color:#A4403F;
 }
 
@@ -42,7 +42,7 @@ body {
 /*/--------------------- */
 
 .text { 
-	font-size: 100px;
+	font-size: 80px;
 	color: #E7DABD;
  	position:fixed !important;
 	position:absolute;
@@ -62,11 +62,11 @@ body {
 }
 
 img.painting{
-	padding-top: 10px;
+	padding-top: 0px;
 	width: 100vw;
-    height: auto;
+    height: 50%;
     max-width: none;
-    max-height: 85vh;
+    max-height: 80vh;
     object-fit: contain;
 }	
 
@@ -78,9 +78,9 @@ img.painting{
 
 
 .contact-bar{
-	padding-top: 15px;
+	padding-top: 0px;
 	display:flex;
 	justify-content: center;
 	text-decoration-color:#A4403F;
-	font-size:30px;
+	font-size:20px;
 }
